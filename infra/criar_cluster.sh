@@ -1,4 +1,5 @@
 eksctl create cluster \
+    --version=1.21 \
     --name=kubeMarcosVieira \
     --managed \
     --instance-types=m5.xlarge \
